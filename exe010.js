@@ -4,9 +4,10 @@
 let prompt  = require('prompt-sync')();
 let NumeroUser;
 
-while (NumeroUser != 0){
+do
+{
      NumeroUser = parseInt(prompt('Digite um Número: '));
-}
+}while (NumeroUser != 0)
 
 console.log(`Parabéns, Você saiu do LOOOP de 0!!!!`)
 
